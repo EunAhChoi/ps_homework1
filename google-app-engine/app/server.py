@@ -8,9 +8,9 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://drive.google.com/uc?export=download&confirm=xPuP&id=18ZdxdLRXgd8pulBZqawFfeSOdHPASRtH'
-model_file_name = 'model'
-classes = ['panda', 'grizzly', 'polar','bears']
+model_file_url = 'https://www.dropbox.com/s/iqa5dab8exq75ag/stage-2.pth?dl=1'
+model_file_name = 'stage-2'
+classes = ['panda', 'grizzly', 'polar']
 path = Path(__file__).parent
 
 app = Starlette()
